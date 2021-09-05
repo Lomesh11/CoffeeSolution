@@ -1,29 +1,29 @@
 ﻿using Coffee.Interface;
 using System;
+using Coffee.DataAccess;
+using Coffee.RepositoryData;
 
 namespace Coffee.Business
 {
     /// <summary>
     /// Implement coffee functionality
     /// </summary>
-    class Coffee : Drink
+    class Coffee : IDrink
     {
         public void MakeDrink()
         {
             Console.WriteLine("Would you like milk or not? Press Y or N");
-            Console.Write("Ans:" + Console.ReadLine());
-            bool isMilk = Convert.ToBoolean(Console.Read());
-            if (isMilk)
+            string input = Console.ReadLine();
+            int milkUnits = InMemoryData.getMilkCount();
+            int beanUnits = InMemoryData.getBeansCount();
+            if (input == "Y" && milkUnits > 0 && beanUnits > 1)
             {
-                //check Milk qty
-                //check coffee beans qty
-                //make coffee
+                Console.WriteLine("Coffee is ready..!!!");
             }
             else
             {
-                //make coffee without milk
+                Console.WriteLine("Insufficient milk or beans units to make coffee..!!!");
             }
-            //throw new NotImplementedException();
         }
     }
 }

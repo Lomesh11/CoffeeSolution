@@ -4,17 +4,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Coffee.RepositoryData;
+
 namespace Coffee.Business
 {
     /// <summary>
     /// Implement Latte functionality
     /// </summary>
-    class Latte : Drink
+    class Latte : IDrink
     {
         public void MakeDrink()
         {
-           //check milk and coffee beans qty
-           // make latte drink
+            int milkUnits = InMemoryData.getMilkCount();
+            int beanUnits = InMemoryData.getBeansCount();
+            if (milkUnits > 1 && beanUnits > 2)
+            {
+                Console.WriteLine("Latte is ready..!!!");
+            }
+            else
+            {
+                Console.WriteLine("Insufficient milk or beans units to make Latte..!!!");
+            }
         }
     }
 }

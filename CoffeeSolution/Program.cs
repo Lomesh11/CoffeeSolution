@@ -19,15 +19,15 @@ namespace CoffeeSolution
             {
                 case "1":
                     string value=SelectDrink.Coffee.ToString();
-                    Drink coffee = new CoffeeFactory().GetDrink();
+                    IDrink coffee = new CoffeeFactory().GetDrink();
                     coffee.MakeDrink();
                     break;
                 case "2":
-                    Drink latte = new LatteFactory().GetDrink();
+                    IDrink latte = new LatteFactory().GetDrink();
                     latte.MakeDrink();
                     break;
                 case "3":
-                    Drink cappiccino = new CappuccinoFactory().GetDrink();
+                    IDrink cappiccino = new CappuccinoFactory().GetDrink();
                     cappiccino.MakeDrink();
                     break;
                 default:

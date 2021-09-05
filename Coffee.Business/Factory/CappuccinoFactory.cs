@@ -9,9 +9,9 @@ namespace Coffee.Business.Factory
 {
     public class CappuccinoFactory : Machine
     {
-        protected override Drink CreateDrink()
+        protected override IDrink CreateDrink()
         {
-            Drink drink = new Cappuccino();
+            IDrink drink = new Cappuccino();
             return drink;
         }
     }

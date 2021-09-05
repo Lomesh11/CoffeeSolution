@@ -7,3 +7,5 @@ F:\Coffee Asignment\CoffeeSolution\Coffee.DataAccess\obj\Debug\Coffee.DataAccess
 F:\Coffee Asignment\CoffeeSolution\Coffee.DataAccess\obj\Debug\Coffee.DataAccess.csproj.CopyComplete
 F:\Coffee Asignment\CoffeeSolution\Coffee.DataAccess\obj\Debug\Coffee.DataAccess.dll
 F:\Coffee Asignment\CoffeeSolution\Coffee.DataAccess\obj\Debug\Coffee.DataAccess.pdb
+F:\Coffee Asignment\CoffeeSolution\Coffee.DataAccess\bin\Debug\Coffee.RepositoryData.dll
+F:\Coffee Asignment\CoffeeSolution\Coffee.DataAccess\bin\Debug\Coffee.RepositoryData.pdb

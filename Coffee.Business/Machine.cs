@@ -9,8 +9,8 @@ namespace Coffee.Business
 {
     public abstract class Machine
     {
-        protected abstract Drink CreateDrink();
-        public Drink GetDrink()
+        protected abstract IDrink CreateDrink();
+        public IDrink GetDrink()
         {
             return this.CreateDrink();
         }

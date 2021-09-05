@@ -49,6 +49,10 @@
       <Project>{9cac153f-3142-432c-8572-18b288324034}</Project>
       <Name>Coffee.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Coffee.RepositoryData\Coffee.RepositoryData.csproj">
+      <Project>{49750470-dd48-4e09-94dd-bee05ad27f26}</Project>
+      <Name>Coffee.RepositoryData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

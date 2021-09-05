@@ -9,3 +9,7 @@ F:\Coffee Asignment\CoffeeSolution\Coffee.Business\bin\Debug\Drink.Interface.pdb
 F:\Coffee Asignment\CoffeeSolution\Coffee.Business\obj\Debug\Coffee.Business.csproj.CopyComplete
 F:\Coffee Asignment\CoffeeSolution\Coffee.Business\obj\Debug\Coffee.Business.dll
 F:\Coffee Asignment\CoffeeSolution\Coffee.Business\obj\Debug\Coffee.Business.pdb
+F:\Coffee Asignment\CoffeeSolution\Coffee.Business\bin\Debug\Coffee.DataAccess.dll
+F:\Coffee Asignment\CoffeeSolution\Coffee.Business\bin\Debug\Coffee.DataAccess.pdb
+F:\Coffee Asignment\CoffeeSolution\Coffee.Business\bin\Debug\Coffee.RepositoryData.dll
+F:\Coffee Asignment\CoffeeSolution\Coffee.Business\bin\Debug\Coffee.RepositoryData.pdb
