@@ -1,7 +1,14 @@
 F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\CoffeeSolution.exe.config
 F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\CoffeeSolution.exe
 F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\CoffeeSolution.pdb
-F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\obj\Debug\CoffeeSolution.csprojAssemblyReference.cache
 F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\obj\Debug\CoffeeSolution.csproj.CoreCompileInputs.cache
 F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\obj\Debug\CoffeeSolution.exe
 F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\obj\Debug\CoffeeSolution.pdb
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\Coffee.Business.dll
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\Drink.Interface.dll
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\Coffee.Business.pdb
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\Drink.Interface.pdb
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\obj\Debug\CoffeeSolution.csprojAssemblyReference.cache
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\obj\Debug\CoffeeSolution.csproj.CopyComplete
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\Coffee.Entities.dll
+F:\Coffee Asignment\CoffeeSolution\CoffeeSolution\bin\Debug\Coffee.Entities.pdb

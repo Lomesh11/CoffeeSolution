@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeSolution", "CoffeeSolution\CoffeeSolution.csproj", "{27C3310D-D76D-4A06-85AD-F4E694485782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.Interface", "Drink.Interface\Coffee.Interface.csproj", "{9B723E03-395D-4DE4-877A-0A2C16C4132A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.Business", "Coffee.Business\Coffee.Business.csproj", "{BB997657-1B88-4E60-8B43-479F33C10427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.Entities", "Coffee.Entities\Coffee.Entities.csproj", "{9CAC153F-3142-432C-8572-18B288324034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.DataAccess", "Coffee.DataAccess\Coffee.DataAccess.csproj", "{15A4CD48-7816-490B-8636-9DA47F27EC30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{27C3310D-D76D-4A06-85AD-F4E694485782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C3310D-D76D-4A06-85AD-F4E694485782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C3310D-D76D-4A06-85AD-F4E694485782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B723E03-395D-4DE4-877A-0A2C16C4132A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B723E03-395D-4DE4-877A-0A2C16C4132A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B723E03-395D-4DE4-877A-0A2C16C4132A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B723E03-395D-4DE4-877A-0A2C16C4132A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB997657-1B88-4E60-8B43-479F33C10427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB997657-1B88-4E60-8B43-479F33C10427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB997657-1B88-4E60-8B43-479F33C10427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB997657-1B88-4E60-8B43-479F33C10427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAC153F-3142-432C-8572-18B288324034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAC153F-3142-432C-8572-18B288324034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAC153F-3142-432C-8572-18B288324034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAC153F-3142-432C-8572-18B288324034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A4CD48-7816-490B-8636-9DA47F27EC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A4CD48-7816-490B-8636-9DA47F27EC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A4CD48-7816-490B-8636-9DA47F27EC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A4CD48-7816-490B-8636-9DA47F27EC30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

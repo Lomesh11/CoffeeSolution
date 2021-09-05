@@ -44,16 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cappuccino.cs" />
-    <Compile Include="Coffee.cs" />
-    <Compile Include="Constatnts.cs" />
-    <Compile Include="Drink.cs" />
-    <Compile Include="Latte.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coffee.Business\Coffee.Business.csproj">
+      <Project>{bb997657-1b88-4e60-8b43-479f33c10427}</Project>
+      <Name>Coffee.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coffee.Entities\Coffee.Entities.csproj">
+      <Project>{9cac153f-3142-432c-8572-18b288324034}</Project>
+      <Name>Coffee.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Drink.Interface\Coffee.Interface.csproj">
+      <Project>{9b723e03-395d-4de4-877a-0a2c16c4132a}</Project>
+      <Name>Coffee.Interface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

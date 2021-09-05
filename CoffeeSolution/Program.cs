@@ -1,5 +1,10 @@
-﻿using System;
+﻿using Coffee.Business;
+using Coffee.Interface;
+using System;
 using System.Configuration;
+using Coffee.Entities;
+using static Coffee.Entities.Entities;
+using Coffee.Business.Factory;
 
 namespace CoffeeSolution
 {
@@ -8,42 +13,26 @@ namespace CoffeeSolution
         static void Main(string[] args)
         {
             Console.WriteLine("Which drink do you want?");
-            Console.WriteLine("Coffee\nLatte\nCappuccino\n");
-            string input = Console.ReadLine();
-
-            int BeensQty = Convert.ToInt32(ConfigurationManager.AppSettings["CoffeeBeanUnits"]);
-            int MilkQty = Convert.ToInt32(ConfigurationManager.AppSettings["MilkUnits"]);
-
-            if (input.ToLower() == Constatnts.Coffee.ToLower() || input.ToLower() == Constatnts.Late.ToLower() || input.ToLower() == Constatnts.Cappuccino.ToLower())
+            Console.WriteLine("1.Coffee\n2.Latte\n3.Cappuccino\n");
+            string inputNo = Console.ReadLine();
+            switch (inputNo)
             {
-                if (input.ToLower() == Constatnts.Cappuccino.ToLower())
-                {
-                    Drink d = new Cappuccino();
-                    Console.WriteLine("Please provide suger qty in Units?");
-                    string SugarQty = Console.ReadLine();
-                    d.makeDrink(true);
-
-                }
-                else if (input.ToLower() == Constatnts.Coffee.ToLower())
-                {
-                    Drink d = new Coffee();
-                    Console.WriteLine("Would you like milk or not? Yes or No..");
-                    string inputVal = Console.ReadLine();
-                    bool isMilk = inputVal.ToLower() == "yes" ? true : false;
-                    d.makeDrink(isMilk);
-                }
-                else
-                {
-                    Drink d = new Latte();
-                    Console.Write("Make other drinks");
-                    d.makeDrink(true);
-                }
+                case "1":
+                    string value=SelectDrink.Coffee.ToString();
+                    Drink coffee = new CoffeeFactory().GetDrink();
+                    coffee.MakeDrink();
+                    break;
+                case "2":
+                    Drink latte = new LatteFactory().GetDrink();
+                    latte.MakeDrink();
+                    break;
+                case "3":
+                    Drink cappiccino = new CappuccinoFactory().GetDrink();
+                    cappiccino.MakeDrink();
+                    break;
+                default:
+                    break;
             }
-            else
-            {
-                Console.WriteLine("Pleas provide the currect option?");
-            }
-
             Console.ReadLine();
         }
     }
