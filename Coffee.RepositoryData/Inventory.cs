@@ -14,4 +14,11 @@ namespace Coffee.RepositoryData
         public int UnitRemaining { get; set; }
 
     }
+
+    public enum InventoryType
+    { 
+        Beans,
+        Milk,
+        Sugar
+    }
 }

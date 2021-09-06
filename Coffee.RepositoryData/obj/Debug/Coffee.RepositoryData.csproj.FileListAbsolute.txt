@@ -4,3 +4,8 @@ F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.Reposi
 F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.csproj.CoreCompileInputs.cache
 F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.dll
 F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.pdb
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\Coffee.RepositoryData.dll
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\Coffee.RepositoryData.pdb
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.csproj.CoreCompileInputs.cache
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.dll
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.pdb

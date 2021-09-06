@@ -4,3 +4,9 @@ F:\Coffee Asignment\CoffeeSolution\Drink.Interface\obj\Debug\Coffee.Interface.cs
 F:\Coffee Asignment\CoffeeSolution\Drink.Interface\obj\Debug\Drink.Interface.dll
 F:\Coffee Asignment\CoffeeSolution\Drink.Interface\obj\Debug\Drink.Interface.pdb
 F:\Coffee Asignment\CoffeeSolution\Drink.Interface\obj\Debug\Coffee.Interface.csprojAssemblyReference.cache
+F:\Coffee Asignment\Coffee\CoffeeSolution\Drink.Interface\bin\Debug\Drink.Interface.dll
+F:\Coffee Asignment\Coffee\CoffeeSolution\Drink.Interface\bin\Debug\Drink.Interface.pdb
+F:\Coffee Asignment\Coffee\CoffeeSolution\Drink.Interface\obj\Debug\Coffee.Interface.csproj.CoreCompileInputs.cache
+F:\Coffee Asignment\Coffee\CoffeeSolution\Drink.Interface\obj\Debug\Drink.Interface.dll
+F:\Coffee Asignment\Coffee\CoffeeSolution\Drink.Interface\obj\Debug\Drink.Interface.pdb
+F:\Coffee Asignment\Coffee\CoffeeSolution\Drink.Interface\obj\Debug\Coffee.Interface.csprojAssemblyReference.cache

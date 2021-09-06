@@ -17,7 +17,7 @@ namespace Coffee.RepositoryData
                 new Inventory()
                 {
                     InventoryId = Guid.NewGuid(),
-                    InventoryType = "Beans",
+                    InventoryType ="Beans",
                     InitialUnit = 25,
                     UnitRemaining = 25
                 },
