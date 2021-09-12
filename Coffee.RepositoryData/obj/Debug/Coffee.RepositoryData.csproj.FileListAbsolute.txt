@@ -4,8 +4,14 @@ F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.Reposi
 F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.csproj.CoreCompileInputs.cache
 F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.dll
 F:\Coffee Asignment\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.pdb
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\Coffee.RepositoryData.dll.config
 F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\Coffee.RepositoryData.dll
 F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\Coffee.RepositoryData.pdb
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\EntityFramework.dll
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\EntityFramework.SqlServer.dll
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\EntityFramework.xml
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\bin\Debug\EntityFramework.SqlServer.xml
 F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.csproj.CoreCompileInputs.cache
+F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.csproj.CopyComplete
 F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.dll
 F:\Coffee Asignment\Coffee\CoffeeSolution\Coffee.RepositoryData\obj\Debug\Coffee.RepositoryData.pdb

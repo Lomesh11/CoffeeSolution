@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Coffee_DBModelStoreContainer" CdmEntityContainer="CoffeeDBEntities">
+    <EntitySetMapping Name="tbl_Inventory">
+      <EntityTypeMapping TypeName="Coffee_DBModel.tbl_Inventory">
+        <MappingFragment StoreEntitySet="tbl_Inventory">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="inventoryType" ColumnName="inventoryType" />
+          <ScalarProperty Name="initialQty" ColumnName="initialQty" />
+          <ScalarProperty Name="remainingQty" ColumnName="remainingQty" />
+          <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+          <ScalarProperty Name="modifyDate" ColumnName="modifyDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

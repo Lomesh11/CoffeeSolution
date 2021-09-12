@@ -42,13 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess.cs" />
+    <Compile Include="IDataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Coffee.Entities\Coffee.Entities.csproj">
-      <Project>{9cac153f-3142-432c-8572-18b288324034}</Project>
-      <Name>Coffee.Entities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Coffee.RepositoryData\Coffee.RepositoryData.csproj">
       <Project>{49750470-dd48-4e09-94dd-bee05ad27f26}</Project>
       <Name>Coffee.RepositoryData</Name>

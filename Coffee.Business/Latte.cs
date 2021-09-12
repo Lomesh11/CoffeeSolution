@@ -1,10 +1,6 @@
 ﻿using Coffee.Interface;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Coffee.RepositoryData;
+using Coffee.DataAccess;
 
 namespace Coffee.Business
 {
@@ -15,16 +11,27 @@ namespace Coffee.Business
     {
         public void MakeDrink()
         {
-            int milkUnits = InMemoryData.getMilkCount();
-            int beanUnits = InMemoryData.getBeansCount();
-            if (milkUnits > 1 && beanUnits > 2)
+            try
             {
-                Console.WriteLine("Latte is ready..!!!");
+                IDataAccess _dataAccess = new DataAccess.DataAccess();
+                int reqMilkQty = 2;
+                int reqBeansQty = 3;
+                if (_dataAccess.IsBeanAvailable(reqBeansQty) && _dataAccess.isMIlkAvailable(reqMilkQty))
+                {
+                    _dataAccess.UpdateInventory("Milk",reqMilkQty);
+                    _dataAccess.UpdateInventory("Beans",reqBeansQty);
+                    Console.WriteLine("\n*********************\nLatte is ready..!!!\n*********************\n");
+                }
+                else
+                {
+                    Console.WriteLine("Insufficient milk or beans units to make Latte..!!!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Insufficient milk or beans units to make Latte..!!!");
+                Console.WriteLine("Something went wrong ", ex.Message);
             }
+           
         }
     }
 }

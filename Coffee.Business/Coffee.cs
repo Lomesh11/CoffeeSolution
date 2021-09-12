@@ -12,18 +12,29 @@ namespace Coffee.Business
     {
         public void MakeDrink()
         {
-            Console.WriteLine("Would you like milk or not? Press Y or N");
-            string input = Console.ReadLine();
-            int milkUnits = InMemoryData.getMilkCount();
-            int beanUnits = InMemoryData.getBeansCount();
-            if (input == "Y" && milkUnits > 0 && beanUnits > 1)
+            try
             {
-                Console.WriteLine("Coffee is ready..!!!");
+                Console.WriteLine("Would you like milk or not?[Y/N]");
+                string userInput = Console.ReadLine();
+                IDataAccess _dataAccess = new DataAccess.DataAccess();
+                int reqMilkQty = 1;
+                int reqBeansQty = 2;
+                if (_dataAccess.IsBeanAvailable(reqBeansQty) && _dataAccess.isMIlkAvailable(reqMilkQty))
+                {
+                    _dataAccess.UpdateInventory("Beans",reqBeansQty);
+                    _dataAccess.UpdateInventory("Milk", reqMilkQty);
+                    Console.WriteLine("\n*********************\nCoffee is ready..!!!\n*********************\n");
+                }
+                else
+                {
+                    Console.WriteLine("Insufficient milk or beans units to make coffee..!!!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Insufficient milk or beans units to make coffee..!!!");
+                Console.WriteLine("Something went wrong ", ex.Message);
             }
+           
         }
     }
 }

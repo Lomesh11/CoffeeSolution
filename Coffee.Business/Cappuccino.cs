@@ -1,6 +1,6 @@
 ﻿using Coffee.Interface;
 using System;
-using Coffee.RepositoryData;
+using Coffee.DataAccess;
 
 namespace Coffee.Business
 {
@@ -8,19 +8,34 @@ namespace Coffee.Business
     /// Implement Cappuccino functionality
     /// </summary>
     class Cappuccino : IDrink
-    {
+    { 
+        
         public void MakeDrink()
         {
-            Console.WriteLine("Please provide sugar quantity.");
-            int milkUnits = InMemoryData.getMilkCount();
-            int beanUnits = InMemoryData.getBeansCount();
-            if (milkUnits > 2 && beanUnits > 4)
+            try
             {
-                Console.WriteLine("Cappuccino is ready..!!!");
+                IDataAccess _dataAccess = new DataAccess.DataAccess();
+                Console.WriteLine("\nEnter Sugar Cube Required[Number].");
+                int userInput = Convert.ToInt32(Console.ReadLine());
+                int reqBeansQty = 5;
+                int reqMilkQty = 3;
+                if (_dataAccess.IsBeanAvailable(reqBeansQty) && _dataAccess.isMIlkAvailable(reqMilkQty))
+                {
+                    _dataAccess.UpdateInventory("Beans", reqBeansQty);
+                    _dataAccess.UpdateInventory("Milk",reqMilkQty);
+                  //  _dataAccess.updateBeansQty(reqBeansQty);
+                    Console.WriteLine("\n*********************\nCappuccino is ready..!!!\n*********************\n");
+                }
+                else
+                {
+                    Console.WriteLine("Insufficient milk or beans units to make Cappuccino..!!!");
+
+                }
             }
-            else 
+            catch (Exception ex)
             {
-                Console.WriteLine("Insufficient milk or beans units to make Cappuccino..!!!");
+
+                Console.WriteLine("Something went wrong ", ex.Message);
             }
         }
     }
