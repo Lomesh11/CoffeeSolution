@@ -1,8 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using NUnit;
-using NUnit.Framework;
-using Coffee.DataAccess;
+﻿using NUnit.Framework;
 
 namespace Coffee.DataAccess.Test
 {
@@ -34,5 +30,6 @@ namespace Coffee.DataAccess.Test
             bool result = _dataAccess.isMIlkAvailable(qty);
             NUnit.Framework.Assert.AreEqual(true, result);
         }
+         
     }
 }
