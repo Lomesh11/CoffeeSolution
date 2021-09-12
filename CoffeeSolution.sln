@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.DataAccess", "Coffee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.RepositoryData", "Coffee.RepositoryData\Coffee.RepositoryData.csproj", "{49750470-DD48-4E09-94DD-BEE05AD27F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.DataAccess.Test", "Coffee.DataAccess.Test\Coffee.DataAccess.Test.csproj", "{69746845-725A-4615-BB1F-EB0790D135D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{49750470-DD48-4E09-94DD-BEE05AD27F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49750470-DD48-4E09-94DD-BEE05AD27F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49750470-DD48-4E09-94DD-BEE05AD27F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69746845-725A-4615-BB1F-EB0790D135D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69746845-725A-4615-BB1F-EB0790D135D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69746845-725A-4615-BB1F-EB0790D135D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69746845-725A-4615-BB1F-EB0790D135D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
