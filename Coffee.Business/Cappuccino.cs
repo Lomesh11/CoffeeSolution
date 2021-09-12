@@ -9,7 +9,6 @@ namespace Coffee.Business
     /// </summary>
     class Cappuccino : IDrink
     { 
-        
         public void MakeDrink()
         {
             try
@@ -23,7 +22,6 @@ namespace Coffee.Business
                 {
                     _dataAccess.UpdateInventory("Beans", reqBeansQty);
                     _dataAccess.UpdateInventory("Milk",reqMilkQty);
-                  //  _dataAccess.updateBeansQty(reqBeansQty);
                     Console.WriteLine("\n*********************\nCappuccino is ready..!!!\n*********************\n");
                 }
                 else

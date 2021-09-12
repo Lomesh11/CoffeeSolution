@@ -43,6 +43,11 @@ namespace Coffee.DataAccess
             return isBeanAvailable;
         }
 
+        /// <summary>
+        /// Update inventory details
+        /// </summary>
+        /// <param name="drinkType"></param>
+        /// <param name="Qty"></param>
         public void UpdateInventory(string drinkType,int Qty)
         {
             _repo = new InventoryData();
